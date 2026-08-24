@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(#e27eb8, #e5b6d2);
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: montserrat, sans-serif;
+}
+h2 {
+    color: white;
+    text-align: center;
+    font-family: montserrat, sans-serif;
+}
+h3 {
+    color: rgb(88, 21, 135);
+    font-family: montserrat, sans-serif;
+}
+p {
+    color:rgb(88, 21, 135);
+    font-family: montserrat, sans-serif;
+}
+.project-title {
+    color: rgb(59, 6, 97);
+    font-family: montserrat, sans-serif;
+    font-size: 24px;
+    }
+li a {
+    color: rgb(223, 154, 178);
+    font-family: montserrat, sans-serif;
+}
+a:hover {
+    color: rgb(0, 255, 0);
+}
+#biggest {
+    font-size: 48px
+}
+div {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
