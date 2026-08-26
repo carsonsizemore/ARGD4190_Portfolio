@@ -1,5 +1,8 @@
+html {
+    font-size: 16px;
+}
 body {
-    background: linear-gradient(#e27eb8, #e5b6d2);
+    background: linear-gradient(90deg, #e27eb8, #e5b6d2);
 }
 h1 {
     color: white;
@@ -10,32 +13,67 @@ h2 {
     color: white;
     text-align: center;
     font-family: montserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
 }
 h3 {
     color: rgb(88, 21, 135);
     font-family: montserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    line-height: 2;
+    text-align: center;
 }
 p {
-    color:rgb(88, 21, 135);
+    color:rgb(175, 132, 205);
     font-family: montserrat, sans-serif;
+    line-height: 1.5;
 }
+
 .project-title {
     color: rgb(59, 6, 97);
     font-family: montserrat, sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     }
+.project-title:hover {
+    color: rgb(0, 255, 0);
+}
 li a {
     color: rgb(223, 154, 178);
     font-family: montserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 a:hover {
     color: rgb(0, 255, 0);
 }
 #biggest {
-    font-size: 48px
+    font-family: 'Homemade Apple', cursive;
+    color: rgb(88, 21, 135);
+    font-size: 3.5rem;
 }
-div {
+.projects  {
     background-color: white;
     margin: 20px;
     padding: 20px;
+    width: 27.5vw;
+    display: inline-block;
+}
+button {
+    background-color: rgb(88, 21, 135);
+    color: white;
+    font-family: montserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
