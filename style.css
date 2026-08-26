@@ -35,7 +35,7 @@ p {
 }
 
 .project-title {
-    color: rgb(59, 6, 97);
+    color: rgb(88,21,135);
     font-family: montserrat, sans-serif;
     font-size: 1.5rem;
     }
@@ -43,7 +43,7 @@ p {
     color: rgb(0, 255, 0);
 }
 li a {
-    color: rgb(223, 154, 178);
+    color: rgb(88,21,135);
     font-family: montserrat, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -86,4 +86,11 @@ button {
     color: rgb(88,21,135);
     font-family: montserrat, sans-serif;
     line-height: 2;
+}
+.section-title {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    font-family: 'Homemade Apple', cursive;
+    text-transform: lowercase;
 }
