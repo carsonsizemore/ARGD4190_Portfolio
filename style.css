@@ -7,21 +7,21 @@ body {
 h1 {
     color: white;
     text-align: center;
-    font-family: montserrat, sans-serif;
+    font-family: var(--secondary-font-family);
     font-size: 1.5rem;
     letter-spacing: 2px;
 }
 h2 {
     color: white;
     text-align: center;
-    font-family: montserrat, sans-serif;
+    font-family: var(--secondary-font-family);
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 600;
 }
 h3 {
-    color: rgb(88, 21, 135);
-    font-family: montserrat, sans-serif;
+    color:var(--primary-color);
+    font-family: var(--secondary-font-family);
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 300;
@@ -30,30 +30,28 @@ h3 {
 }
 p {
     color:rgb(175, 132, 205);
-    font-family: montserrat, sans-serif;
+    font-family: var(--secondary-font-family);
     line-height: 1.5;
 }
 
 .project-title {
-    color: rgb(88,21,135);
-    font-family: montserrat, sans-serif;
+    color: var(--primary-color);
+    font-family: var(--secondary-font-family);
     font-size: 1.5rem;
     }
-.project-title:hover {
-    color: rgb(0, 255, 0);
-}
 li a {
-    color: rgb(88,21,135);
-    font-family: montserrat, sans-serif;
+    color: var(--primary-color);
+    font-family: var(--secondary-font-family);
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 a:hover {
     color: rgb(0, 255, 0);
+    font-size: 1.2rem;
 }
 #biggest {
-    font-family: 'Homemade Apple', cursive;
-    color: rgb(88, 21, 135);
+    font-family: var(--primary-font-family);
+    color: var(--primary-color);
     font-size: 3.5rem;
 }
 .projects  {
@@ -65,15 +63,20 @@ a:hover {
     border-right: 5px solid rgb(162, 79, 108);
 }
 button {
-    background-color: rgb(88, 21, 135);
+    background-color: var(--primary-color);
     color: white;
-    font-family: montserrat, sans-serif;
+    font-family: var(--secondary-font-family);
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
     text-align: center;
+}
+button:hover {
+    background-color: rgb(0, 255, 0);
+    color: black;
+    font-size: 1.1rem;
 }
 .container {
     display: flex;
@@ -82,23 +85,21 @@ button {
 }
 .contact-info {
     text-align: center;
-    color: rgb(88,21,135);
-    font-family: montserrat, sans-serif;
+    color: var(--primary-color);
+    font-family: var(--secondary-font-family);
     line-height: 2;
 }
 .section-title {
     font-size: 2rem;
     color: white;
     text-align: center;
-    font-family: 'Homemade Apple', cursive;
+    font-family: var(--primary-font-family);
     text-transform: lowercase;
 }
 .proj-container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .about-me {
    display: flex;
@@ -146,5 +147,16 @@ button {
    align-items:center;
 }
 .education-skills {
-    color: rgb(88,21,135)
+    color: var(--primary-color);
+    display: grid;
+    grid-template-columns: 2fr .5fr 2fr;
+    padding-left: 15vw;
+    padding-right: 10vw;
+    justify-content: center;
+}
+:root {
+    --primary-color: rgb(88, 21, 135);
+    --secondary-color: #e27eb8;
+    --primary-font-family: homemade apple, cursive;
+    --secondary-font-family: montserrat, sans-serif;
 }
