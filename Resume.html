@@ -6,6 +6,9 @@
         <meta name="description" content="Carson Sizemore's Portfolio Website showcasing design projects, resume, and contact information.">
     <meta name="keywords" content="Carson Sizemore, Portfolio, Graphic Design, Web Development">
     <title>Carson Sizemore - Portfolio</title>
+    <meta property="og:title" content="Carson Sizemore - Portfolio">
+    <meta property="og:description" content="Carson Sizemore's Portfolio Website showcasing design projects, resume, and contact information.">
+    <meta property="og:image" content="images/Website.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Splash&display=swap" rel="stylesheet"> <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -13,91 +16,82 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <br>
-    <br>
-    <h2>Carson Sizemore</h2>
-    <br>
-    <h1 id="biggest">Portfolio Website</h1>
+       <h3>Carson Sizemore</h3>
+    <h1>Portfolio Website</h1>
     <hr>
-    <header style="background-color: white;">
-        <br>
+    <header>
         <nav>
-            <ul style="display: flex; gap: 10vw; list-style-type: none; padding: 20px; justify-content: center;">
-                <li style="list-style-type: none;">
+            <ul>
+                <li>
                     <a href="index.html">Home</a>
                 </li>
-                <li style="list-style-type: none;">
+                <li>
                     <a href="about.html">About</a>
                 </li>
-                <li style="list-style-type: none;">
+                <li>
                     <a href="Resume.html">Resumé</a>
                 </li>
-                <li style="list-style-type: none;">
+                <li>
                     <a href="contact.html">Contact</a>
                 </li>
             </ul>
         </nav>
-        <br>
     </header>
     <hr>
-    <br>
-    <h1 class="section-title">my resumé</h1>
-    <br>
-    <div class="resume-captions">
-    <h2>Education & Skills</h2>
-    <br>
-    <h2>Experience</h2>
-    </div>
-     <br>
-     <div class="education-skills">
-     <div><p style="color: rgb(88,21,135); margin-bottom: 7vw;">University of Georgia, Morehead Honors College <br> Athens, GA <br>Expected: May 2028
-<br> Bachelor of Fine Arts, Graphic Design GPA: 3.98
-<br> Bachelor of Arts, Spanish
-<br> Certificate in New Media
-<br> Honors & Awards: Zell Miller Scholarship, OneUGA Scholarship, Presidential Scholar
-<br>- Proficient in Adobe Creative Suite
-<br>- Proficient in Spanish
-<br>- Effective customer service</p>
-<img src="images/Headshot2.jpeg" alt="Headshot" style="width: 25vw; height: auto;"></div>
-    <br>
-    <br>
-    <br>
-    <p style="color: rgb(88,21,135);">
-VannGo Designs, Albany, GA Summer 2026 <br>
-Graphic Design Intern and Assistant <br>
-- Receive one-on-one mentorship from the owner of VannGo.
-<br>- Gain experience in the printing and large format side of design.
-<br>- Improve skills in the Adobe Creative Suite.
-<br>- Meet with clients to assess their design wants and needs.
-    <br><br>Leci’s Boutique, Athens, GA Fall 2025
-<br>Graphic Design Intern
-<br>- Designed various social media posts and website embellishments using Adobe InDesign.
-<br>- Assessed client’s and target audience’s needs in order to produce the most effective designs.
-<br>- Created variations of designs and color palettes for each project in order to insure client satisfaction.
-<br><br>CJ Consulting & Design, Albany, GA June 2025-Present
-<br>Graphic Design Consultant
-<br>- Designed new logo and business card, offering variations based on client’s needs.
-<br>- Offer design advice on any posters or worksheet layouts presented by the client.
-<br><br>Volvo Car Dealership, Hilton Head, SC June 2024
-<br>Muralist
-<br>- Assessed the needs of the client.
-<br>- Designed a mock-up draft image of the mural and accepted feedback from the client.
-<br>- Painted a well-crafted, large mural quickly and efficiently.
-<br><br>
-Albany Museum of Art Teen Art Board, Albany, GA August 2023-May 2024
-<br>Secretary
-<br>- Developed ideas for community improvement through artistic means, including a public mural.
-<br>- Collaborated with a team in order to discuss various issues and solutions.
-<br>- Managed a financial budget, raised additional funds, and met with potential donors.</p>
-     </div>
-    <br>
-    <br>
-    <div class="container">
+    <h2>my resumé</h2>
+    <section class="resume-captions">
+    <heading1><h3>Education & Skills</h3></heading1>
+    <heading2><h3>Experience</h3></heading2>
+    </section>
+    <section class="resume-content">
+     <education-skills><p>University of Georgia, Morehead Honors College</p>
+     <p>Athens, GA</p>
+     <p>Expected Graduation Date: May 2028</p>
+     <p>GPA: 3.98</p>
+     <p>Bachelor of Fine Arts, Graphic Design</p>
+     <p>Bachelor of Arts, Spanish</p>
+     <p>Certificate in New Media</p>
+     <p>Honors & Awards: Zell Miller Scholarship, OneUGA Scholarship, Presidential Scholar</p>
+     <p>Skills: Proficient in Adobe Creative Suite, proficient in Spanish, effective customer service</p>
+     <img src="images/Headshot2.jpeg" alt="Headshot" style="width: 25vw; padding-top: 3vw; padding-left:4vw;">
+    </education-skills>
+    <experience>
+    <job1><p>VannGo Designs, Albany, GA Summer 2026</p>
+    <p>Graphic Design Intern and Assistant</p>
+    <p>- Receive one-on-one mentorship from the owner of VannGo.</p>
+    <p>- Gain experience in the printing and large format side of design.</p>
+    <p>- Improve skills in the Adobe Creative Suite.</p>
+    <p>- Meet with clients to assess their design wants and needs.</p></job1>
+    
+    <job2><p>Leci’s Boutique, Athens, GA Fall 2025</p>
+    <p>Graphic Design Intern</p>
+    <p>- Designed various social media posts and website embellishments using Adobe InDesign.</p>
+    <p>- Assessed client’s and target audience’s needs in order to produce the most effective designs.</p>
+    <p>- Created variations of designs and color palettes for each project in order to insure client satisfaction.</p>
+   
+    <job3><p>CJ Consulting & Design, Albany, GA June 2025-Present</p>
+    <p>Graphic Design Consultant</p>
+    <p>- Designed new logo and business card, offering variations based on client’s needs.</p>
+    <p>- Offer design advice on any posters or worksheet layouts presented by the client.</p>
+    </job3>
+   
+    <job4><p>Volvo Car Dealership, Hilton Head, SC June 2024</p>
+    <p>Muralist</p>
+    <p>- Assessed the needs of the client.</p>
+    <p>- Designed a mock-up draft image of the mural and accepted feedback from the client.</p>
+    <p>- Painted a well-crafted, large mural quickly and efficiently.</p></job4>
+   
+    <job5><p>Albany Museum of Art Teen Art Board, Albany, GA August 2023-May 2024</p>
+    <p>Secretary</p>
+    <p>- Developed ideas for community improvement through artistic means, including a public mural.</p>
+    <p>- Collaborated with a team in order to discuss various issues and solutions.</p>
+    <p>- Managed a financial budget, raised additional funds, and met with potential donors.</p>
+     </job5>
+    </experience>
+    </section>
+    <div class="button-container">
         <button onclick="window.location.href='resume.html'">Back to Top</button>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
+    <footer> </footer>
 </body>
 </html>

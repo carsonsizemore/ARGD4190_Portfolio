@@ -4,22 +4,17 @@ html {
 body {
     background: linear-gradient(90deg, #e27eb8, #e5b6d2);
 }
-h1 {
-    color: white;
-    text-align: center;
-    font-family: var(--secondary-font-family);
-    font-size: 1.5rem;
-    letter-spacing: 2px;
-}
-h2 {
+h3 {
     color: white;
     text-align: center;
     font-family: var(--secondary-font-family);
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 600;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
 }
-h3 {
+h4 {
     color:var(--primary-color);
     font-family: var(--secondary-font-family);
     text-transform: uppercase;
@@ -39,20 +34,34 @@ p {
     font-family: var(--secondary-font-family);
     font-size: 1.5rem;
     }
-li a {
+li {
     color: var(--primary-color);
     font-family: var(--secondary-font-family);
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+header {
+    background-color: white;
+    padding: 4vh;
+}
+footer {
+    padding: 4vh;
+}
+ul {
+    display: flex;
+    gap: 10vw;
+    list-style-type: none;
+    justify-content: center;
+}
 a:hover {
     color: rgb(0, 255, 0);
     font-size: 1.2rem;
 }
-#biggest {
+h1 {
     font-family: var(--primary-font-family);
     color: var(--primary-color);
-    font-size: 3.5rem;
+    font-size: 4rem;
+    text-align: center;
 }
 .projects  {
     background-color: white;
@@ -62,6 +71,23 @@ a:hover {
     border-bottom: 5px solid rgb(162, 79, 108);
     border-right: 5px solid rgb(162, 79, 108);
 }
+.resume-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "education-skills  experience"
+                        "skills .";
+    grid-gap: 4vw;
+    padding-left: 12vw;
+    padding-right: 7vw;
+}
+.education-skills {
+    grid-area: education-skills;
+    text-align: left;
+}
+.experience {
+    grid-area: experience;
+    text-align: left;
+}
 button {
     background-color: var(--primary-color);
     color: white;
@@ -69,8 +95,6 @@ button {
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 10px 20px;
-    border: none;
-    cursor: pointer;
     text-align: center;
 }
 button:hover {
@@ -78,42 +102,58 @@ button:hover {
     color: black;
     font-size: 1.1rem;
 }
-.container {
+.button-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.contact-info {
-    text-align: center;
+p {
     color: var(--primary-color);
     font-family: var(--secondary-font-family);
     line-height: 2;
 }
-.section-title {
+h2 {
     font-size: 2rem;
     color: white;
     text-align: center;
     font-family: var(--primary-font-family);
     text-transform: lowercase;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 }
-.proj-container {
+main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.about-me {
-   display: flex;
-   gap: 10vw;
-   padding-left: 10vw;
-   padding-right: 10vw;
-   align-items:center;
+.content {
+   display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: ". image info .";
+    grid-gap: 2rem;
+}
+info {
+    grid-area: info;
+    text-align: center;
+    align-self: center;
+}
+image {
+    grid-area: image;
+    justify-self: center;
 }
 .resume-captions {
-    display: flex;
-    justify-content: space-evenly;
-   padding-left: 10vw;
-   padding-right: 10vw;
-   align-items:center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: ". heading1 heading2 .";
+    grid-gap: 2rem;
+}
+heading1 {
+    grid-area: heading1;
+    text-align: center;
+}
+heading2 {
+    grid-area: heading2;
+    text-align: center;
 }
 @media screen and (max-width: 768px) {
    html {
@@ -137,14 +177,6 @@ button:hover {
    p {
     font-size: var(--font-size-p)
    }
-}
-.contact-me {
-    display: flex;
-   justify-content: space-evenly;
-   gap: 10vw;
-   padding-left: 10vw;
-   padding-right: 10vw;
-   align-items:center;
 }
 .education-skills {
     color: var(--primary-color);
