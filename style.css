@@ -124,8 +124,8 @@ h2 {
     text-align: center;
     font-family: var(--primary-font-family);
     text-transform: lowercase;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
 }
 main {
     display: grid;
@@ -197,7 +197,7 @@ heading2 {
     font-size: var(--font-size-li)
    }
    ul {
-    gap: 2vh;
+    gap: 2vw;
    }
    button {
     font-size: var(--font-size-button)
@@ -212,7 +212,7 @@ heading2 {
     width: 80vw;
    }
    header {
-    padding: 2vh;
+    padding: 3vw;
    }
    .content {
     grid-template-columns: 1fr;
