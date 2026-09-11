@@ -220,17 +220,3 @@ heading2 {
                         "info";
    }
    }
-.education-skills {
-    color: var(--primary-color);
-    display: grid;
-    grid-template-columns: 2fr .5fr 2fr;
-    padding-left: 15vw;
-    padding-right: 10vw;
-    justify-content: center;
-}
-:root {
-    --primary-color: rgb(88, 21, 135);
-    --secondary-color: #e27eb8;
-    --primary-font-family: homemade apple, cursive;
-    --secondary-font-family: montserrat, sans-serif;
-}
